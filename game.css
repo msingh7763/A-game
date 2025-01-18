@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(225, 106, 8);
+  background-image: url(download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(19, 4, 109);
+  font-weight: 10px;
+  justify-content: center;
+  text-wrap: calc();
+  text-justify: auto;
+  text-align: center;
+  font-size: 60px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(235, 20, 20);
+}
+
+h3 {
+  color: #095398;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bt {
+  background-color: rgb(94, 209, 102);
+  width: 80px;
+  font-weight: bolder;
+  height: 60px;
+  padding: 10px 10px;
+  border-radius: 2px;
+  margin: auto;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  font-size: 17px;
+}
