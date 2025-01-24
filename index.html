@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rock Paper Scissor game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <br>
+  <h1>
+    Let's start the game with Computer
+  </h1>
+  <h4>
+     <hr>
+     Select any one by your choice
+  </h4>
+  <div class="button">
+  <button class="bt" onclick="
+  let computerChoice=printComChoice();
+  let resultMsg=getResult('Rock',computerChoice);
+  showResult('Rock',computerChoice,resultMsg);
+  ">Rock</button>
+
+  <button class="bt"  onclick="
+  computerChoice=printComChoice();
+  resultMsg=getResult('Paper',computerChoice);
+  showResult('Paper',computerChoice,resultMsg);
+  ">Paper</button>
+
+  <button class="bt" onclick="
+  computerChoice=printComChoice();
+  resultMsg=getResult('Rock',computerChoice);
+  showResult('Rock',computerChoice,resultMsg);
+  ">Scissor</button>
+  </div>
+  <br>
+  <h3>result you can see in alert popup</h3>
+  <script src ="game.js">
+  </script>
+</body>
+</html>
